@@ -2,8 +2,17 @@
 using namespace std;
 
 int main(){
+<<<<<<< HEAD
     string nama, alamat, pekerjaan, alamatPekerjaan, asalSekolah;
+=======
+<<<<<<< HEAD
+    string nama, alamat;
+    int umur;
+=======
+    string nama, alamat, pekerjaan, alamatPekerjaan;
+>>>>>>> 23b2288ae2444b101015f7838d83ec36685e920a
     int umur, gaji;
+>>>>>>> b5d9c97f649ab9e4c969e8b7d73255d5fd84d85a
 
     string namaOrtuAyah, namaOrtuIbu, alamatAyah, alamatIbu, TamatLulusanOrtu;
     int gajiOrtuAyah, gajiOrtuIbu, pilLulusanOrtu;
@@ -12,6 +21,13 @@ int main(){
     getline(cin, nama);
 
     cout << "Masukan alamat : ";
+<<<<<<< HEAD
+    cin.ignore();
+    getline(cin, alamat);
+
+    cout << "Usia : ";
+    cin >> umur;
+=======
     getline(cin, alamat);
 
     cout << "Asal Sekolah : ";
@@ -40,6 +56,7 @@ int main(){
     cout << "Almat Pekerjaan : " << alamatPekerjaan << endl;
     cout << "Usia            : " << umur << endl;
     cout << "Gaji/Moon       : " << gaji << endl;
+<<<<<<< HEAD
 
     cout << endl;
     cin.ignore();
@@ -97,4 +114,7 @@ int main(){
     cout << "Gaji Ayah / Bulan  : " << gajiOrtuAyah << endl;
     cout << "Gaji Ibu / Bulan   : " << gajiOrtuIbu << endl;
     cout << "Lulusan Pendidikan : " << TamatLulusanOrtu << endl;
+=======
+>>>>>>> b5d9c97f649ab9e4c969e8b7d73255d5fd84d85a
+>>>>>>> 23b2288ae2444b101015f7838d83ec36685e920a
 }
